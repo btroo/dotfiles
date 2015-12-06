@@ -11,8 +11,10 @@ Bundle "Keithbsmiley/investigate.vim"
 Bundle "chrisbra/NrrwRgn"
 Bundle "christoomey/vim-tmux-navigator"
 Bundle "MarcWeber/vim-addon-mw-utils.git"
+Bundle 'mattn/emmet-vim'
 Bundle "bogado/file-line.git"
 Bundle "mattn/webapi-vim.git"
+Bundle 'scrooloose/nerdcommenter'
 Bundle "sjl/gundo.vim"
 Bundle "skwp/YankRing.vim"
 Bundle "tomtom/tlib_vim.git"

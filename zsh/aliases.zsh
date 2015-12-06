@@ -63,10 +63,10 @@ fi
 alias :q='exit'
 
 # vimrc editing
-alias ve='vim ~/.vimrc'
+alias vimrc='vim ~/.vimrc'
 
 # zsh profile editing
-alias ze='vim ~/.zshrc'
+alias zshconfig='vim ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
@@ -208,3 +208,5 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+alias tmux="TERM=screen-256color-bce tmux"
