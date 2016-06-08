@@ -3,6 +3,7 @@ path=(
   $path
   $HOME/.yadr/bin
   $HOME/.yadr/bin/yadr
+  $HOME/bin
   $HOME/.rbenv/bin:$PATH
 )
 
