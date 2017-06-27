@@ -120,3 +120,8 @@ command Tb Tabularize
 
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
+" Change depending on python version being used
+let g:syntastic_python_python_exe = 'python3'
+let syntastic_mode_map = { 'passive_filetypes': ['html'] }
+let g:syntastic_python_checkers = ['flake8']
