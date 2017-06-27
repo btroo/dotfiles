@@ -127,5 +127,6 @@
   path = .gitconfig.user
 [user]
 	email = me@brandontruong.com
+	name = Brandon Truong
 [credential]
 	helper = osxkeychain
